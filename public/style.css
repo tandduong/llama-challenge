@@ -471,16 +471,30 @@ nav ul li .sub{
 
 /*dev part*/
 
-.dev h1{
+.dev h1, .dev p{
   font-family: 'Love Ya Like A Sister', cursive;
-  text-align: center;
+  text-align: center;}
+
+.dev h1{
   font-size: 4rem;
   padding: 20px;
   padding-top: 100px;
   padding-bottom: 0px;
   opacity: .8;
   letter-spacing: 2px;
-  color: rgb(49, 32, 32)
+  color: rgb(49, 32, 32);
+}
+
+.dev p{
+  color: white;
+  font-size: 2rem;
+  opacity: .8;
+  background:  rgb(87, 62, 62);
+  width: 20%;
+  margin: auto;
+  padding: 5px 15px;
+  box-shadow: 0 0 20px #00000070;
+  border-radius: 20px;
 }
 
 .dev-wrapper{
@@ -562,6 +576,26 @@ nav ul li .sub{
   margin:auto;
   border-radius: 10px;
 }
+
+@media(max-width: 1100px){
+  .dev p{
+    padding: 5px 10px;
+    font-size: 1rem;
+  }
+
+  .dev h1{
+    font-size: 2rem;
+  }
+}
+
+@media(max-width: 575px){
+  .dev p{
+    padding: 5px 10px;
+    font-size: 1rem;
+    width: 40%;
+  }
+}
+
 
 /*footer part*/
 
